@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <!-- tailwindcss linked -->
+  <!-- <link rel="stylesheet" href="./css/tailwind.css"> -->
+
+  <!-- tailwind generated  css-->
+  <link rel="stylesheet" href="./css/style.min.css">
+
+</head>
+
+<body class="h-screen flex flex-col gap-0 bg-custom-Very-dark-blue-(main-background) text-white">
+
+  <main class="flex flex-col justify-center items-center h-full">
+
+    <div
+      class="bg-custom-Dark-desaturated-blue-(card-background) max-w-[320px] rounded-b-xl flex flex-col desktop:max-w-[1024px] desktop:flex-row desktop:rounded-none desktop:rounded-l-xl">
+
+      <div class="flex relative desktop:basis-1/2 desktop:order-2 shrink-0">
+        <picture>
+          <source media="(min-width:376px)" srcset="../images/image-header-desktop.jpg">
+          <img src="../images/image-header-mobile.jpg" alt="..." style="width:auto;"
+            class="rounded-t-xl w-full h-full desktop:rounded-none desktop:rounded-r-xl">
+        </picture>
+        <div
+          class="w-full h-full bg-custom-Soft-violet-(accent) absolute rounded-t-xl opacity-60 desktop:rounded-none desktop:rounded-r-xl">
+        </div>
+      </div>
+
+      <div class="text-center px-6 font-Inter desktop:basis-1/2 desktop:order-1 desktop:px-12">
+
+        <h1
+          class="text-2xl font-Inter font-semibold my-5 text-custom-Slightly-transparent-white-(stat headings) px-3 desktop:text-4xl desktop:pt-14 desktop:text-left desktop:pl-0">
+          Get <span class="text-custom-Soft-violet-(accent)">insights</span> that help your business grow.
+        </h1>
+
+        <p
+          class="text-[1rem] mb-6 text-custom-Slightly-transparent-white-(main paragraph) opacity-60 desktop:text-left">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+
+        <div class="flex flex-col desktop:flex-row desktop:gap-14 desktop:mt-14 desktop:text-left">
+          <div class="mb-5">
+            <div class="text-2xl font-semibold text-custom-Slightly-transparent-white-(stat headings) font-Inter">
+              10k+
+            </div>
+            <div
+              class="uppercase text-custom-Slightly-transparent-white-(main paragraph) font-Lexend-Deca text-sm text-custom-Slightly-transparent-white-(main paragraph) opacity-60">
+              companies
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <div class="text-2xl font-semibold text-custom-Slightly-transparent-white-(stat headings) font-Inter">
+              314
+            </div>
+            <div
+              class="uppercase text-custom-Slightly-transparent-white-(main paragraph) font-Lexend-Deca text-sm text-custom-Slightly-transparent-white-(main paragraph) opacity-60">
+              templates
+            </div>
+          </div>
+
+          <div class="mb-7">
+            <div class="text-2xl font-semibold text-custom-Slightly-transparent-white-(stat headings) font-Inter">
+              12M+
+            </div>
+            <div
+              class="uppercase text-custom-Slightly-transparent-white-(main paragraph) font-Lexend-Deca text-sm text-custom-Slightly-transparent-white-(main paragraph) opacity-60">
+              Queries
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution desktop:text-xl mb-3">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a target="_blank" href="https://github.com/sajidrec">MD. Sajid Hossain</a>.
+  </footer>
+
+</body>
+
+</html>
