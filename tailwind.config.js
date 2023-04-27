@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "desktop": "376px"
+        "desktop": "481px"
       },
       colors: {
         "custom-Very-dark-blue-(main-background)": "hsl(233, 47%, 7%)",
